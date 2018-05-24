@@ -3,15 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { InfoComponent } from './info/info.component';
 import { InfoDetailComponent } from './info-detail/info-detail.component';
+import { InfoComponent } from './info/info.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    InfoComponent,
-    InfoDetailComponent
+    InfoDetailComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule
